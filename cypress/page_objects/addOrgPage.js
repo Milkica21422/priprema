@@ -21,7 +21,7 @@ class AddOrgPage{
     }
 
    get createOrgModal() {
-    return cy.get(".vs-c-modal");
+        return cy.get(".vs-c-modal");
    }
 
    createOrganization(title) {
